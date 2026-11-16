@@ -20,6 +20,9 @@ docker_packages:
   - containerd
   - runc
 
+# openSUSE ships the Compose v2 CLI plugin as 'docker-compose'
+docker_compose_package: docker-compose
+
 # Map SUSE releases to Docker repository paths.
 #
 # As of 2024, download.opensuse.org/repositories/Virtualization:/containers/
